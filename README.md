@@ -1,4 +1,5 @@
 # FVQ: A Large-Scale Dataset and A LMM-based Method for Face Video Quality Assessment
+## [Paper](https://arxiv.org/pdf/2504.09255?)
 
 <img src="assets/teaser.png" /> 
 

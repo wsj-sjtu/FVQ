@@ -18,7 +18,6 @@ The dataset can be downloaded from [Hugging Face](https://huggingface.co/dataset
 
 ### Overview
 - FVQ-20K is an in-the-wild face video quality assessment (FVQA) dataset, which contains 20,000 face videos with MOS annotations.
-<br>
 - The FVQ-20K dataset is divided into training, validation, and test sets with a ratio of 80% : 5% : 15%.
 
 ### Data Structure

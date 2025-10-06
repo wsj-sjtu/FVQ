@@ -1,5 +1,5 @@
-# FVQ: A Large-Scale Dataset and A LMM-based Method for Face Video Quality Assessment (ACM MM 2025)
-## [Paper](https://arxiv.org/pdf/2504.09255?) | [Dataset]()
+# FVQ: A Large-Scale Dataset and an LMM-based Method for Face Video Quality Assessment (ACM MM 2025)
+## [Paper](https://arxiv.org/pdf/2504.09255?) | [Video](https://www.youtube.com/watch?v=Zqm80rcbOjU) | [Dataset](https://huggingface.co/datasets/Human-X/FVQ-20K)
 
 <img src="assets/teaser.png" /> 
 
@@ -11,6 +11,38 @@ We explore the in-the-wild face video quality assessment problem for the first t
 - [ ] Release the evaluation code of FVQ-Rater.
 - [x] Release the FVQ-20K dataset.
 
+
+## FVQ-20K Dataset
+### Download
+The dataset can be downloaded from [Hugging Face](https://huggingface.co/datasets/Human-X/FVQ-20K).
+
+### Overview
+- FVQ-20K is an in-the-wild face video quality assessment (FVQA) dataset, which contains 20,000 face videos with MOS annotations.
+<br>
+- The FVQ-20K dataset is divided into training, validation, and test sets with a ratio of 80% : 5% : 15%.
+
+### Data Structure
+```
+FVQ-20K
+│
+├── train
+│   ├── labels.txt
+│   └── videos
+│        ├── *.mp4
+│        └── ...
+├── val
+│   ├── labels.txt
+│   └── videos
+│        ├── *.mp4
+│        └── ...
+└── test
+    ├── labels.txt
+    └── videos
+         ├── *.mp4
+         └── ...
+
+• labels.txt contains video names and their corresponding MOS scores (ranging from 0 to 100).
+```
 
 ## Citation
 If you find our paper useful, please consider citing

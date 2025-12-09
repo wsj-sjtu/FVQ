@@ -46,10 +46,11 @@ FVQ-20K
 ## Citation
 If you find our paper useful, please consider citing
 ```
-@article{wu2025fvq,
-  title={FVQ: A Large-Scale Dataset and A LMM-based Method for Face Video Quality Assessment},
+@inproceedings{wu2025fvq,
+  title={FVQ: A Large-Scale Dataset and an LMM-based Method for Face Video Quality Assessment},
   author={Wu, Sijing and Li, Yunhao and Xu, Ziwen and Gao, Yixuan and Duan, Huiyu and Sun, Wei and Zhai, Guangtao},
-  journal={arXiv preprint arXiv:2504.09255},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={6928--6937},
   year={2025}
 }
 ```

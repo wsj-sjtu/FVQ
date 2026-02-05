@@ -44,6 +44,9 @@ FVQ-20K
 ```
 
 ## 🎯 FVQ-Rater Method
+
+<img src="assets/method.png" /> 
+
 ### 🛠 Installation
 
 ### ⚡ Training and Evaluation on FVQ-20K

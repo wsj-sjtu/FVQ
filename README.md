@@ -6,13 +6,13 @@
 We explore the in-the-wild face video quality assessment problem for the first time. Concretely, we present **FVQ-20K**, the first large-scale in-the-wild face video quality assessment dataset, which contains 20,000 face videos with (a) diverse source video content, (b) various distortions in both spatial and temporal domains, (c) a variety of facial attributes, and (d) high-quality MOS annotation for each video. Along with the FVQ-20K dataset, we propose **FVQ-Rater**, the first LMM-based method elaborately designed for the face video quality assessment task as illustrated in (e).
 
 
-## TODO
-- [ ] Release the training code of FVQ-Rater.
-- [ ] Release the evaluation code of FVQ-Rater.
+## 📌 TODO
+- [x] Release the training code of FVQ-Rater.
+- [x] Release the evaluation code of FVQ-Rater.
 - [x] Release the FVQ-20K dataset.
 
 
-## FVQ-20K Dataset
+## ✨ FVQ-20K Dataset
 ### Download
 The dataset can be downloaded from [Hugging Face](https://huggingface.co/datasets/Human-X/FVQ-20K).
 
@@ -43,8 +43,16 @@ FVQ-20K
 • labels.txt contains video names and their corresponding MOS scores (ranging from 0 to 100).
 ```
 
-## Citation
-If you find our paper useful, please consider citing
+## 🎯 FVQ-Rater Method
+### 🛠 Installation
+
+### ⚡ Training and Evaluation on FVQ-20K
+
+### 🚀 Training and Evaluation on Custom Datasets
+
+
+## 📄 Citation
+If you find our dataset or code helpful, please consider citing
 ```
 @inproceedings{wu2025fvq,
   title={FVQ: A Large-Scale Dataset and an LMM-based Method for Face Video Quality Assessment},
@@ -55,5 +63,5 @@ If you find our paper useful, please consider citing
 }
 ```
 
-## Contact
+## 🤗 Contact
 - Sijing Wu [(wusijing@sjtu.edu.cn)](mailto:wusijing@sjtu.edu.cn)
